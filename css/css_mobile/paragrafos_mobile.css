@@ -1,0 +1,118 @@
+/*Responsividade da pagina web*/
+@media all and (min-width:1px) and (max-width:960px){
+    /*Organização da pagina web no formato display:flex*/
+        .projeto{
+            display: flex;
+            flex-direction: column;
+        }
+    /*Organização do paragrafo do tipo texto no lado esquerdo*/
+        .paragrafo-esquerdo{
+            width: 100%;
+            margin-left:0;
+        }
+/*Seção de Configuração de Imagens da parte de conteudo*/
+    /*configuração das imagens no conteudo*/
+        .img{
+            border-radius: 10px;
+            width: 100%;
+        }
+    /* Alinhamento das imagens a direita*/
+        .imagem-direita{
+            width:100%;
+            margin-left: 0;
+        }
+
+/*Finalização da Configuração de imagens da parte de conteudo da versão mobile*/
+
+
+    /*Formatação dos textos na seção conteudo*/
+        .p-formatacao-paragrafos{
+            text-align: justify;
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    /*Organização ao lado direito do paragrafo do tipo texto*/
+        .paragrafo-direita{
+            width: 100%;
+            margin-top: 20px;
+            margin-left: 0;
+        }
+
+    /*Inversão da seção de texto a direita*/
+
+    .paragrafo{
+        color: black;
+        width: 100%;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+
+    }
+/*Configuração da tabela de objetivos do conteudo*/
+    #dv-area-tabela{
+        display: flex;
+        margin-top: 2%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .dv-tabela{
+        width: 99%;
+        min-height: 40vh;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+    }
+
+    .img-imagens{
+        width: 100%;
+        height: 300px;    
+}
+
+    .h2-titulo-princobjetivos{
+        text-align: center;
+        margin-top: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        width: 100%;
+    }
+/*Fim da configuração da tabela de objetivos*/
+#video{
+    margin-left: 0;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+.dv-conteudo-video{
+    margin-top: 1.5%;
+    width: 100%;
+    margin-left: 0;
+}
+.dv-video-direita{
+    margin-left: 0;
+    margin-top: 1.5%;
+    width: 100%;
+}
+#sec-sobremim{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#img-fotominha{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.dv-sobremim-2{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+.dv-sobremim-3{
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+}
+
+
+}
+

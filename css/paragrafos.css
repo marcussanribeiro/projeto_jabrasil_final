@@ -1,0 +1,144 @@
+
+/*Formatação de Conteudos da parte de Conteudos*/
+    /*Tamanho da seção conteudos*/
+        .conteudo{
+            min-height: 30vh;
+        }
+    /*Organização da pagina web no formato display:flex*/
+        .projeto{
+            display: flex;
+            flex-direction: row;
+        }
+
+    /*Organização do paragrafo do tipo texto no lado esquerdo*/
+        .paragrafo-esquerdo{
+            width: 60%;
+            text-align: justify;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
+            margin-left: 1%;
+        }
+
+    .h2-titulo-princobjetivos{
+        background-color: #00bcd4;
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 2%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #dv-area-tabela{
+        display: flex;
+        margin-top: 2%;
+        justify-content: space-between;
+        justify-content: space-around;
+    }
+
+    .dv-tabela{
+        width: 31%;
+        min-height: 40vh;
+        border: 1px solid black;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        border-radius: 10px;
+    }
+
+    .img-imagens{
+        width: 100%;
+        height: 300px;   
+        border-radius: 10px; 
+}
+
+    .dv-tamanho-imagem{
+        display: flex;
+        flex-direction: column;    
+    }
+
+/*Finalização da Formatação de Conteudos da parte de Conteudos*/
+
+/*Seção de Configuração de Imagens da parte de conteudo*/
+    /*configuração das imagens no conteudo*/
+        .img{
+            border-radius: 10px;
+        }
+    /* Alinhamento das imagens a esquerda*/
+
+/* Alinhamento das imagens a direita*/
+        .imagem-direita{
+            width:40%;
+            margin-top: 20px;
+            margin-right:1.3%;
+            margin-left:1.6%;
+        }
+
+/*Finalização da parte de Imagens da parte de Conteudo*/
+
+/*Organização de Textos da parte de conteudo*/
+    /*Formatação dos textos na seção conteudo*/
+        .p-formatacao-paragrafos{
+            text-align: justify;
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 1%;
+        }
+        .alinhamento-sub-conteudo{
+            margin-top: 1%;
+            background-color: #f36d24;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        #sub-dv-video{
+            display: flex;
+            width: 100%;
+            margin-top: 2%;
+            justify-content: center;
+        }
+        #video{
+            width: 50%;
+            height: 400px;
+            border-radius: 10px;
+        }
+
+        #video-direita{
+            border-radius: 10px;
+            width: 100%;
+            height: 400px;
+
+        }
+
+        .dv-video-direita{
+            margin-top: 1.5%;
+            width: 40%;
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+        .dv-conteudo-video{
+            margin-top: 1.5%;
+            width: 60%;
+            margin-left: 1%;
+        }
+        #sec-sobremim{
+            display: flex;
+        }
+
+        #img-fotominha{
+            margin-top: 2%;
+            width: 100%;
+            border-radius: 10px;
+            
+        }
+        .dv-sobremim-2{
+            width: 20%;
+            margin-left: 10%;
+            margin-top: 1.5%;
+        }
+        .dv-sobremim-3{
+            margin-top: 1.5%;
+            width: 60%;
+            margin-right: 2%;
+            margin-left: 2%;
+        }
